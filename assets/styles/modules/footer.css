@@ -1,0 +1,156 @@
+/**
+ * ======================================== 
+ * Footer
+ * ========================================
+ */
+
+.footer{
+    overflow-wrap: break-word;
+    background: var(--bg-black);
+    margin-top: 60px;
+}
+
+.footer__contact{
+    color: var(--black);
+}
+
+.footer__content, .footer__copy{
+    color: var(--white);
+}
+
+.footer__content{
+    padding: 230px 0 130px 0;
+}
+
+.footer__copy{
+    border-top: 1px solid var(--white);
+    padding: 18px 0;
+}
+
+.footer__content_item{
+    height: auto;
+}
+
+.footer-height{
+	height:100%;
+    margin-top: 10px;
+}
+
+.footer-height-text{
+    margin-bottom: 30px;
+}
+
+.copy__icon{
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.footer__input{
+    width: auto;
+}
+
+.footer__input .footer__input__input{
+    height: 45px;
+    width: fit-content;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 0 62px 0px 9px;
+    outline: none;
+}
+
+.footer__input .footer__input__img{
+    background: var(--blue);
+    border-radius: 3px;
+    padding: 7px 15px;
+    margin-right: 3px;
+    top: 3px;
+    bottom: 3px;
+    margin: auto;
+    display: block;
+    position: absolute;
+    right: 3px;
+}
+
+.footer__contact{
+    color: var(--black);
+}
+
+.footer__contact{
+    box-shadow: 0px 10px 50px -5px rgb(106, 99, 99);
+    background: var(--white);
+    max-width: fit-content;
+    color: var(--black);
+    border-radius: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -80px;
+}
+
+.footer__contact__item{
+    align-items: center;
+}
+
+.contact__icon__img{
+    padding: 20px;
+    width: 60px;
+    margin: auto;
+    display: block;
+}
+
+.contact__icon{
+    border-radius: 50%;
+    background-color: var(--blue);
+    width: fit-content;
+}
+
+.footer__contact__item{
+    padding: 40px  20px;
+    gap: 15px;
+}
+
+.footer__contact__item{
+    position: relative;
+}
+
+.footer__contact__item:first-child .contact__icon::after{
+    position: absolute;
+    content: '';
+    border-left: 3px solid var(--grey);
+    right: 0;
+    height: 100px;
+    bottom: 20px;
+}
+
+.footer__contact__item__text{
+    padding-right: 70px;
+}
+
+.social-media-container--footer{
+    margin: 0;
+}
+
+
+
+/* .footer__contact__item:last-child{
+    border-left: 2px solid #6C6C72;
+} */
+
+
+/* .footer__contact__item .contact__icon{
+    background-color: #5956E9;
+    width: fit-content;
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+} */
+
+/* .footer__contact__item .contact__icon .contact__icon__img{
+    margin: auto;
+    display: block;
+    padding: 20px;
+    width: 20px;
+    box-sizing: content-box;
+} */
+

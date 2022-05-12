@@ -1,0 +1,26 @@
+/**
+ * ======================================== 
+ * Variables
+ * ========================================
+ */
+
+ :root{
+    /*background*/
+    --bg-black: #232233;
+    --bg-home: url(../../images/background-image1.png);
+    --bg-features: url(../../images/background-image2.png);
+    --bg-white: #ffff;
+
+    /*base font*/
+    --base-font: 'Josefin Sans', sans-serif;
+
+    /*font color*/
+    --white: #ffff;
+    --black: #232233;
+    --blue: #5956E9;
+    --grey: #6C6C72;
+
+    /*Border*/
+    --border-blue: #7572FF;
+
+ }

@@ -1,0 +1,43 @@
+/**
+ * ======================================== 
+ * Features
+ * ========================================
+ */
+
+.features{
+    background-image: var(--bg-features);
+}
+
+.feature__item:last-child{
+    padding-top: 18px;
+}
+
+.features--midle:last-child{
+    padding-top: 60px;
+}
+
+.features--midle:first-child{
+    padding-bottom: 60px;
+}
+
+.features--midle{
+    width: 70%;
+    margin: auto;
+}
+
+.feature__icon--white{
+    filter: invert(1);
+    margin-bottom: 20px;
+}
+
+.features-item__text{
+    margin-top: 15px;
+}
+
+.feature__colum{
+    padding: 200px 0;
+}
+
+.features-image__img{
+    filter: drop-shadow(20px 20px 4px rgba(0, 0, 0, 0.25))
+}

@@ -1,0 +1,151 @@
+/**
+ * ======================================== 
+ * Global
+ * ========================================
+ */
+
+.container {
+	max-width: 1440px;
+	margin: auto;
+	padding: 0 8vw;
+	display: block;
+}
+
+.link-white{
+	color: var(--white);
+}
+
+.col-3{
+    /* width: 350px; */
+	width: 31.5%;
+} 
+
+.col-2{
+	width: 720px;
+}
+
+/*containers*/
+.introduction{
+	padding: 100px 0 0 0;
+}
+
+.title{
+	text-align: center;
+	padding: 9px 0;
+}
+
+.text{
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-grey{
+	color: var(--grey);
+}
+
+.text-white{
+	color: var(--white);
+}
+
+.content{
+	padding: 60px 0 120px 0;
+	width: 100%;
+}
+
+/*FLEX*/
+
+.flex{
+	display: flex;
+}
+
+.between{
+	justify-content: space-between;
+}
+
+.center{
+	justify-content: center;
+}
+
+.arround{
+	justify-content: space-around;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.start{
+	justify-content: flex-start;
+}
+
+.left{
+	justify-content:left;
+}
+
+.items-center{
+	align-items: center;
+}
+
+/*POSITIONS*/
+.relative{
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+}
+
+/*social media icons*/
+.social-media-container{
+	padding-top: 40px;
+	max-width: fit-content;
+	margin: auto;
+}
+
+.social-media-link{
+	width: auto;
+	margin:0 5px;
+}
+
+.social-media-icon{
+	box-sizing: content-box;
+	width: 25px;
+	display: block;
+	margin: auto;
+	padding:0 15px;
+	/*se invierte debido a la inversion de icono*/
+	border-right: 2px solid rgb(0, 0, 0);
+}
+
+.social-media-link:last-child .social-media-icon:last-child{
+	border-right: 0;
+}
+
+.social-media-link:first-child .social-media-icon:first-child{
+	padding-left: 0;
+}
+
+.icon--white, .icon--grey{
+	filter: invert(1);
+}
+
+.icon--black{
+	filter: invert(0);
+}
+
+.icon--black:hover, .icon--white:hover{
+	filter: saturate(80);
+	cursor: pointer;
+	border: inherit;
+}
+
+.icon--grey:hover{
+	filter: invert(0);
+}
+
+/*BOTONS*/

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Appolly</title>
+</head>
+<body>
+   <header class="header absolute">
+       <div class="container flex column">
+           <div class="header__contact flex between">
+                <div class="header__contact__item flex">
+                    <div class="contact__item flex">
+                        <img class="contact__item-img" width="15" src="assets/favicon/email-h.svg" alt="icono email">
+                        <p>Info@youremail.com</p>
+                    </div>
+                    <div class="contact__item flex">
+                        <img class="contact__item-img" width="15" src="assets/favicon/telefono-h.svg" alt="icono telefono">
+                        <p>(480) 555-0103</p>
+                    </div>
+                </div>
+                <div class="header__contact__item">
+                    <a class="social-media-link" href=""><img class="icon--grey" src="assets/favicon/facebook-icon.svg" alt="icono facebook"></a>
+                    <a class="social-media-link" href=""><img class="icon--grey" src="assets/favicon/instagram-icon.svg" alt="icono instagram"></a>
+                    <a class="social-media-link" href=""><img class="icon--grey" src="assets/favicon/twitter-icon.svg" alt="icono twitter"></a>
+                    <a class="social-media-link" href=""><img class="icon--grey" src="assets/favicon/youtube-icon.svg" alt="icono youtube"></a>
+                </div>
+           </div>
+           <nav class="nav flex between items-center">
+                <ul class="nav__menu flex">
+                    <i class="fa fa-close nav__menu__icon nav__menu__icon__close"></i>
+                    <!--JS-->
+                    <i class="fa fa-bars nav__menu__icon nav__menu__icon__menu" aria-hidden="true"></i>
+                    <li class="menu__item title-h6"><a class="menu__item__link" href="#home">HOME</a></li>
+                    <li class="menu__item title-h6"><a class="menu__item__link" href="#about">ABOUTW</a></li>
+                    <li class="menu__item  title-h6"><a class="menu__item__link" href="#features">FEATURES</a></li>
+                    <!--JS-->
+                    <div class="logo__container">
+                        <img class="logo__img" src="assets/images/logo.png" alt="logo Appolly">
+                    </div>
+                    <li class="menu__item title-h6"><a class="menu__item__link" href="#team">TEAM</a></li>
+                    <li class="menu__item title-h6"><a class="menu__item__link" href="#contact">CONTACT</a></li>
+                    <!--JS-->
+                    <div class="btn-download">
+                        <button class="button" type="button">DOWNLOAD</button>
+                    </div>
+                </ul>
+           </nav>
+       </div>
+   </header>
+
+    <main>
+        <section class="home" id="#home">
+            <div class="container">
+                <div class="home__content flex arround">
+                    <div class="slogan__container relative col-2">
+                        <div class="slogan absolute">
+                            <h2 class="slogan__title">A GREAT APP MAKES YOUR LIFE BETTER</h2>
+                            <p class="slogan-text text-grey">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.<span class="text text-grey hidden">Exercitation veniam consequat sunt nostrud amet.</span></p>
+                            <h5 class="slogan-subtitle">DOWNLOAD APP NOW</h5>
+                            <div class="link-app flex">
+                                <img class="link-app__image" src="assets/images/play-store.png" alt="">
+                                <img class="link-app__image" src="assets/images/app-store.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-view col-2">
+                        <img class="mobile-home" src="assets/images/view-app.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="introduction">
+                    <h4 class="title">About Our App</h4>
+                    <p class="text text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. <span class="text text-grey hidden">Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</span></p>
+                </div>
+                <div class="content flex">
+                    <div class="about-image col-2">
+                        <img class="about-image--img" src="assets/images/about-pic.png" alt="">
+                    </div>
+                    <div class="about-items col-2 flex column between">
+                        <div class="about-item flex">
+                            <img  class="check" src="assets/favicon/check.svg" alt="icon">
+                            <div class="about-item-text">
+                                <h5 class="title-h6">CREATIVE DESIGN</h5>
+                                <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="text text-grey hidden"> Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                                </span></p>
+                            </div>
+                        </div>
+                        <div class="about-item flex">
+                            <img class="check" src="assets/favicon/check.svg" alt="icon">
+                            <div class="about-item-text">
+                                <h5 class="title-h6">EASY TO USE</h5>
+                                <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="text text-grey hidden"> Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                                </span></p>
+                            </div>
+                        </div>
+                        <div class="about-item flex">
+                            <img class="check" src="assets/favicon/check.svg" alt="icon">
+                            <div class="about-item-text">
+                                <h5 class="title-h6">BEST USER EXPERIENCE</h5>
+                                <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="text text-grey hidden"> Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+                                </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features text-white" id="features">
+            <div class="container">
+                <div class="introduction">
+                    <h4 class="title">App features</h4>
+                    <p class="text text--white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. <span class="text text--white hidden">Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</span></p>
+                </div>
+                <div class="content flex between">
+                    <div class="content__item col-3 flex column arround text-right feature__colum">
+                        <div class="features-item">
+                            <img class="feature__icon--white" src="assets/favicon/browser.svg" alt="">
+                            <h5>UNLIMITER FEATURES</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="features-item">
+                            <img class="feature__icon--white" src="assets/favicon/vector.svg" alt="">
+                            <h5>AWSOME UI DESIGN</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="content__item col-3 flex column between text">
+                        <div class="features-item features--midle">
+                            <img class="feature__icon--white" src="assets/favicon/comment.svg" alt="">
+                            <h5>FULL FREE CHAT</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="features-item features-image">
+                            <img class="features-image__img" src="assets/images/App.png" alt="">
+                        </div>
+                        <div class="features-item features--midle">
+                            <img class="feature__icon--white" src="assets/favicon/male-telemarketer.svg" alt="">
+                            <h5>24/7 SUPPORT BY REAL PEOPLE</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="content__item col-3 flex column arround feature__colum">
+                        <div class="features-item">
+                            <img class="feature__icon--white" src="assets/favicon/cell-phone.svg" alt="">
+                            <h5>ISO & ANDROID VERSION</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="features-item">
+                            <img class="feature__icon--white" src="assets/favicon/eye-scanner 1.svg" alt="">
+                            <h5>RETINA READY GREAPHICS</h5>
+                            <p class="features-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="container">
+                <div class="introduction">
+                    <h4 class="title">Our reative team</h4>
+                    <p class="text text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. <span class="text text-grey hidden">Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</span></p>
+                </div>
+                <div class="content flex between">
+                    <div class="col-3 profile">
+                        <span><img class="profile-img" src="assets/images/profile-1.png" alt=""></span>
+                        <h4>CRAIG GOUSE</h4>
+                        <h5 class="text-grey title title-h6">APP DEVELOPER</h5>
+                        <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <div class="social-media-container flex arroud">
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/facebook-icon.svg" alt="icono facebook"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/instagram-icon.svg" alt="icono instagram"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/twitter-icon.svg" alt="icono twitter"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/youtube-icon.svg" alt="icon youtube"></a>
+                        </div>
+                    </div>
+                    <div class="col-3 profile">
+                        <span><img class="profile-img"  src="assets/images/profile-2.png" alt=""></span>
+                        <h4>CRAIG GOUSE</h4>
+                        <h5 class="text-grey title title-h6">UI/UX DESIGNER</h5>
+                        <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <div class="social-media-container flex">
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/facebook-icon.svg" alt="icono facebook"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/instagram-icon.svg" alt="icono instagram"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/twitter-icon.svg" alt="icono twitter"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/youtube-icon.svg" alt="icon youtube"></a>
+                        </div>
+                    </div>
+                    <div class="col-3 profile">
+                        <span><img class="profile-img"  src="assets/images/profile-3.png" alt=""></span>
+                        <h4>CRAIG GOUSE</h4>
+                        <h5 class="text-grey title title-h6">WEBSITE DEVELOPER</h5>
+                        <p class="text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae.</p>
+                        <div class="social-media-container flex">
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/facebook-icon.svg" alt="icono facebook"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/instagram-icon.svg" alt="icono instagram"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/twitter-icon.svg" alt="icono twitter"></a>
+                            <a class="social-media-link" href="http://"><img class="social-media-icon icon--black" src="assets/favicon/youtube-icon.svg" alt="icon youtube"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer relative">
+        <div class="container">
+            <div class="footer__contact flex between absolute">
+                <div class="footer__contact__item flex between">
+                    <div class="contact__icon"><img class="contact__icon__img" src="assets/favicon/email-icon.svg" alt="icono email"></div>
+                    <p class="footer__contact__item__text  footer__contact__item__text--upper">info@youremail.com</p>
+                </div>
+                <div class="footer__contact__item flex between">
+                    <div class="contact__icon"><img class="contact__icon__img" src="assets/favicon/telefono-icon.svg" alt="icono telefono"></div>
+                    <p class="footer__contact__item__text footer__contact__item__text--upper">+880 321 655 9985</p>
+                </div>
+            </div>
+            <div class="footer__content flex between">
+                <div class="footer__content_item col-3">
+                    <h4>LOGO</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</p>
+                    <div class="social-media-container flex lef social-media-container--footer">
+                        <a class="social-media-link" href="http://"><img class="social-media-icon icon--white" src="assets/favicon/facebook-icon.svg" alt="icono facebook"></a>
+                        <a class="social-media-link" href="http://"><img class="social-media-icon icon--white" src="assets/favicon/instagram-icon.svg" alt="icono instagram"></a>
+                        <a class="social-media-link" href="http://"><img class="social-media-icon icon--white" src="assets/favicon/twitter-icon.svg" alt="icono twitter"></a>
+                        <a class="social-media-link" href="http://"><img class="social-media-icon icon--white" src="assets/favicon/youtube-icon.svg" alt="icon youtube"></a>
+                    </div>
+                </div>
+                <div class="footer__content_item col-3 flex column between">
+                    <h5>QUICK LINK</h5>
+                    <ul class="footer-height footer__menu flex column between">
+                        <li><a class="link-white" href="">About</a></li>
+                        <li><a class="link-white" href="">Features</a></li>
+                        <li><a class="link-white" href="">Screenshot</a></li>
+                        <li><a class="link-white" href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content_item col-3 flex column between">
+                    <h5>NEWS LETTER</h5>
+                    <p class="footer-height-text">Subscribe our newsletter to get our latest update & news</p>
+                    <div class="footer__input flex start items-center relative">
+                        <input class="footer__input__input" type="email" placeholder="Your email address">
+                        <a class="footer__input__img" href=""><img class="footer__input__img--icon" src="assets/favicon/send.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copy flex center">
+                <p class="copy__icon--icon">©</p>
+                <p class="footer__copy--text">Copyright 2021 .Ojjomedia. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>

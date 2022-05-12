@@ -1,0 +1,90 @@
+/**
+ * ======================================== 
+ * Header
+ * ========================================
+ */
+
+.header{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.header__contact{
+    color: var(--white);
+    margin-bottom: 15px;
+    
+}
+
+.contact__item{
+    align-items: center;
+    margin-right: 40px;
+}
+
+.contact__item-img{
+    margin-right: 10px;
+    align-self: center;
+}
+
+/*NAV - MENU*/
+.nav{
+    background: var(--white);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav__menu{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 5%;
+    flex-wrap: wrap;
+}
+
+.nav__menu__icon{
+    display: none;
+}
+
+.menu__item__link{
+    padding: 0px 2.5%;
+}
+
+.logo__container{
+    padding:0 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.logo__container::before{
+    width: 80%;
+    content: '';
+    left: 10%;
+    top: -25px;
+    height: 100px;
+    background-color: var(--white);
+    position: absolute;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.logo__img{
+    align-self: center;
+    z-index: 555;
+    display: block;
+    margin: auto;
+}
+
+.button{
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: auto;
+
+}
+
+/* .tamano{
+    font-size: 40px;
+} */
