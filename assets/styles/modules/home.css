@@ -10,7 +10,13 @@
     padding-bottom: 120px;
 }
 
+.home__content{
+    display: flex;
+    justify-content: space-around;
+}
+
 .slogan__container{
+    position: relative;
     align-self: center;
     border: 18px solid var(--border-blue);
     width: 540px;
@@ -19,6 +25,7 @@
 }
 
 .slogan{
+    position: absolute;
     background: var(--bg-white);
     width: 105%;
     height: auto;

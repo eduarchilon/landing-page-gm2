@@ -8,6 +8,34 @@
     background-image: var(--bg-features);
 }
 
+.features__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__content__arround{
+    /* flex column arround text-right  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 200px 0;
+
+}
+
+.content__item--right{
+    text-align: left;
+}
+
+.content__item--left{
+    text-align: right;
+}
+
+.content__item--midle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .feature__item:last-child{
     padding-top: 18px;
 }

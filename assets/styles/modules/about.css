@@ -10,6 +10,13 @@
     border-radius: 10px;
     margin: 10px 0 10px 0;
     align-items: flex-start;
+    display: flex;
+}
+
+.about-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .check{

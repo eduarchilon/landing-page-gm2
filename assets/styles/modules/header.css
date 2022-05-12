@@ -7,17 +7,25 @@
 .header{
     width: 100%;
     margin-top: 35px;
+    position: absolute;
 }
 
 .header__contact{
     color: var(--white);
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.header__contact__item{
+    display: flex;
 }
 
 .contact__item{
     align-items: center;
     margin-right: 40px;
+    display: flex;
 }
 
 .contact__item-img{
@@ -30,6 +38,9 @@
     background: var(--white);
     padding: 5px;
     border-radius: 5px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
 }
 
 .nav__menu{
@@ -39,6 +50,7 @@
     width: 100%;
     padding-left: 5%;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .nav__menu__icon{

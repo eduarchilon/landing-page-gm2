@@ -211,6 +211,10 @@
         margin: 30px 0;
     }
 
+    .features--midle{
+        width: 100%;
+    }
+
     /*HEADER*/
     .header__contact{
         display: none;
