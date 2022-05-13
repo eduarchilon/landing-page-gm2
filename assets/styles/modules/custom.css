@@ -210,6 +210,10 @@
          display: none;
      }
 
+     .title{
+         font-size: 25px;
+     }
+
      /*FOOTER*/
      .footer__contact, .footer__content, .footer__contact__item{
          flex-direction: column;
