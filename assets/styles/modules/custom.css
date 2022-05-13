@@ -170,6 +170,14 @@
  }
 
 
+/*---TABLET---*/
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        padding: 0 20px;
+    }
+}
+
+
 /*---MOBILE---*/
  @media (max-width: 767px){
      /*GLOBAL*/
@@ -481,16 +489,10 @@
     .menu__item__link{
         font-size: 15px;
     }
-
+    
     .menu__item__link:hover{
-        width: 100%;
-        color: var(--white);
-    }
-
-    .menu__item:hover{
-        width: 100%;
-        background-color: var(--blue);
-        color: var(--white);
+        padding: 0;
+        margin-left: 10px;
     } */
 
  }

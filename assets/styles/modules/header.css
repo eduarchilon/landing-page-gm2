@@ -59,6 +59,7 @@
 
 .menu__item__link{
     padding: 0px 2.5%;
+    position: relative;
 }
 
 .logo__container{
@@ -95,6 +96,21 @@
     border-radius: 5px;
     width: auto;
 
+}
+
+.menu__item__link:hover::before{
+    position: absolute;
+    content: '';
+    z-index: 111;
+    border: 1px solid var(--blue);
+    padding: 0;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.menu__item__link:hover{
+    padding: 0;
 }
 
 /* .tamano{
