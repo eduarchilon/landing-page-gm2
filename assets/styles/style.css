@@ -13,8 +13,4 @@
 /* Modules */
 @import 'modules/header.css';
 @import 'modules/footer.css';
-@import 'modules/home.css';
-@import 'modules/about.css';
-@import 'modules/features.css';
-@import 'modules/profile.css';
 @import 'modules/custom.css';
