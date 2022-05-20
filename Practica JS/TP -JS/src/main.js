@@ -64,66 +64,89 @@ function createInputNumberAndButton(){
 EJERCIO 01
 */
 /*FUNCIONES CON INPUTS */
-function adicion(array, number){
-    array = parseInt(document.getElementById('text').value)
+function adicion(input, number){
+    let arrayString = [];
+    let arrayNumber = [];
+    input = document.getElementById('text').value
     number = parseInt(document.getElementById('number').value)
-    let nuevoArray = [];
-    let resultadoArray;
+    arrayString = input.split(',')
+    arrayString.forEach(element => {
+        arrayNumber.push(parseInt(element))
+    });
+    let newNumber = parseInt(arrayNumber.join(''))
     let resultado;
-    if(!isNaN(array) && array>number){
-        resultado = array + number;
-        nuevoArray = array.toString().split('');
+    let resultadoArray = [];
+    let resultadoArrayNumber = [];
+    if(!isNaN(newNumber) && newNumber>number){
+        resultado = newNumber + number;
         resultadoArray = resultado.toString().split('')
-        solution.innerHTML = `
-        <h5>Array:</h5>
-        </br>
-        <p>[${nuevoArray}]</p>
-        </br>
-        </br>
-        <h5>Numero:</h5>
-        <p>${number}</p>
-        </br>
-        </br>
-        <h5>Resultado:</h5>
-        </br>
-        <p>[${resultadoArray}]</p>
-        ` ;
-    }else{
-        solution.innerHTML = `
-        <p>¡Debe ingresar solo numeros!</p>
-    ` 
+        for (let element of resultadoArray) {
+            resultadoArrayNumber.push(parseInt(element));
+            solution.innerHTML = `
+                <h5>Array:</h5>
+                </br>
+                <p>[${arrayNumber}]</p>
+                </br>
+                </br>
+                <h5>Numero:</h5>
+                <p>${number}</p>
+                </br>
+                </br>
+                <h5>Resultado:</h5>
+                </br>
+                <p>[${resultadoArrayNumber}]</p>
+                ` ;
     }
-}
+}else{
+            solution.innerHTML = `
+                    <p>¡Debe ingresar solo numeros!</p>
+                ` 
+        console.log("Error")
+        
+        
+    }
+    }
 
 function restar(array, number){
-    array = document.getElementById('text').value
+    let arrayString = [];
+    let arrayNumber = [];
+    input = document.getElementById('text').value
     number = parseInt(document.getElementById('number').value)
-    let nuevoArray = [];
-    let resultadoArray;
+    arrayString = input.split(',')
+    arrayString.forEach(element => {
+        arrayNumber.push(parseInt(element))
+    });
+    let newNumber = parseInt(arrayNumber.join(''))
     let resultado;
-    if(!isNaN(array) && array>number){
-        resultado = array - number;
-        nuevoArray = array.split('');
+    let resultadoArray = [];
+    let resultadoArrayNumber = [];
+    if(!isNaN(newNumber) && newNumber>number){
+        resultado = newNumber - number;
         resultadoArray = resultado.toString().split('')
-        solution.innerHTML = `
-        <h5>Array:</h5>
-        </br>
-        <p>[${nuevoArray}]</p>
-        </br>
-        </br>
-        <h5>Numero:</h5>
-        </br>
-        <p>${number}</p>
-        </br>
-        </br>
-        <h5>Resultado:</h5>
-        </br>
-        <p>[${resultadoArray}]</p>
-        ` ;
-    }else{
-        solution.innerHTML = `
-        <p>¡Debe ingresar solo numeros!</p>
-    ` 
+        for (let element of resultadoArray) {
+            resultadoArrayNumber.push(parseInt(element));
+            solution.innerHTML = `
+                <h5>Array:</h5>
+                </br>
+                <p>[${arrayNumber}]</p>
+                </br>
+                </br>
+                <h5>Numero:</h5>
+                <p>${number}</p>
+                </br>
+                </br>
+                <h5>Resultado:</h5>
+                </br>
+                <p>[${resultadoArrayNumber}]</p>
+                ` ;
+    }
+}else{
+            solution.innerHTML = `
+                    <p>¡Debe ingresar solo numeros!</p>
+                ` 
+        console.log("Error")
+        
+        
     }
 }
 
