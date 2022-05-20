@@ -1,0 +1,20 @@
+/**
+ * ======================================== 
+ * Variables
+ * ========================================
+**/
+
+ :root{
+    /*background*/
+    --bg-home: url(../../images/fondo-js.jpg);
+
+    /*color*/
+   --grey-shadow: rgb(116, 105, 105);
+   --green: rgb(35, 163, 35);
+   --white: rgb(255, 255, 255);
+   --red: rgb(231, 45, 45);
+   --blue: rgb(57, 57, 227);
+
+    /*base font*/
+    --base-font: 'Josefin Sans', sans-serif;
+ }

@@ -50,8 +50,8 @@ function createInputNumberAndButton(){
     <br/>
     <input type="number" name="number" id="number">
     <div class="operations">
-        <button type="button" id="btn-sum">Sumar</button>
-        <button type="button" id="btn-rest">Restar</button>
+        <button type="button" id="btn-sum" class="btn btn-sumar">Sumar</button>
+        <button type="button" id="btn-rest" class="btn btn-restar">Restar</button>
     </div>
     `;
     const sum = document.getElementById('btn-sum');
@@ -76,12 +76,16 @@ function adicion(array, number){
         resultadoArray = resultado.toString().split('')
         solution.innerHTML = `
         <h5>Array:</h5>
+        </br>
         <p>[${nuevoArray}]</p>
+        </br>
         </br>
         <h5>Numero:</h5>
         <p>${number}</p>
         </br>
+        </br>
         <h5>Resultado:</h5>
+        </br>
         <p>[${resultadoArray}]</p>
         ` ;
     }else{
@@ -103,12 +107,17 @@ function restar(array, number){
         resultadoArray = resultado.toString().split('')
         solution.innerHTML = `
         <h5>Array:</h5>
+        </br>
         <p>[${nuevoArray}]</p>
         </br>
+        </br>
         <h5>Numero:</h5>
+        </br>
         <p>${number}</p>
         </br>
+        </br>
         <h5>Resultado:</h5>
+        </br>
         <p>[${resultadoArray}]</p>
         ` ;
     }else{
@@ -152,20 +161,19 @@ function hayParOPareja(array){
             }if (pares[i]%2 !==0){
                 parejaSumada.push(pares[i])
                 console.log(parejaSumada)
-            }else if(par.length <= 0){
-                let cero = 0;
-                par.push(cero)
             }
             solution.innerHTML = `
                 <p>Existen numeros pares o que son pareja</p>
-                </b>
+                </br>
+                </br>
                 <h5>Numeros Pares:</h5>
+                </br>
                 <p>${par}</p>
-                </b>
+                </br>
                 <h5>Numeros con pareja:</h5>
+                </br>
                 <p>${parejaSumada}</p>
             `
-            form.reset();
         }
     }
 }
